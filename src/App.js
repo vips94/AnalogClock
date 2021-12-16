@@ -12,7 +12,7 @@ function App() {
   const selectedLocation = useSelector(state => state.timezone.selectedLocation)
   const[text,setText] = useState("");
   const [currentArea,setCurrentArea] = useState("Asia")
-  const [currentLocation,setCurrentLocation] = useState("Dubai")
+  const [currentLocation,setCurrentLocation] = useState("Kolkata")
 
   const dispatch = useDispatch()
 

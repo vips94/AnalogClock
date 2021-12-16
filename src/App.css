@@ -25,3 +25,15 @@
   flex-direction: row;
   gap: 5rem;
 }
+
+@media screen and (max-width:600px) {
+  .App {
+    gap: 1rem;
+  }
+  .clockDiv{
+    flex-direction: column;
+    gap: 1rem;
+    padding-bottom: 1rem;
+  }
+
+}

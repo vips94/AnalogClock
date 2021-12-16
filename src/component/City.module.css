@@ -60,3 +60,18 @@
 .tlight{
     color: black;
 }
+
+@media screen and (max-width : 600px) {
+    .container{
+        gap: 0;
+        height: 60px;
+    }
+
+    .city{
+        font-size: 15px;
+    }
+
+    .time{
+        font-size: 12px;
+    }
+}

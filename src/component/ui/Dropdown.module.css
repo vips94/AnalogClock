@@ -64,3 +64,16 @@
     color: red;
 }
 
+@media screen and (max-width:600px) {
+    .dropdownDiv{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .container .dropdown{
+        font-size: 18px;
+    }
+    .container h2{
+        font-size: 18px;
+    }
+}
+

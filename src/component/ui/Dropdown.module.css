@@ -1,0 +1,66 @@
+.dropdownDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 5rem;
+    animation: start 0.5s forwards linear;
+}
+
+@keyframes start {
+    0%{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    transition: 1s ease all;
+}
+
+.dark{
+    color: white;
+    border-bottom-color: white !important; 
+}
+
+.light{
+    color: black;
+    border-bottom-color: black in !important;
+}
+
+.container .dropdown{
+    width: 200px;
+    border: 0;
+    border-bottom: 2px solid #333;
+    background-color: transparent;
+    font-size: 20px;
+    padding-left: 0.5rem;
+    transition: 1s ease all;
+    font-family: 'Poppins';
+    font-weight: bold;
+}
+
+
+
+.container .dropdown:focus-visible{
+    outline: transparent;
+    border-bottom: 2px solid rgb(255, 84, 84);
+}
+
+.tdark{
+    color: greenyellow;
+}
+
+.tlight{
+    color: red;
+}
+

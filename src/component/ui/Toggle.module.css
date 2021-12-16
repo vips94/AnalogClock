@@ -3,13 +3,25 @@
     height: 50px;
     position: relative;
     background: transparent;
+    animation: start 0.5s forwards linear;
+}
+
+@keyframes start {
+    0%{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .logo{
     position: absolute;
     z-index: 12;
-    top: 15px;
-    left: 10px;
+    top: 12px;
+    left: 12px;
     transition: 1s ease all;
 }
 
@@ -44,6 +56,7 @@
     position: absolute;
     left: 0;
     border-radius: 25px;
+    transition: 1s ease all;
     
 }
 

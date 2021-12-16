@@ -6,8 +6,8 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 7rem;
   transition: 1s ease all;
+  gap: 3rem;
 }
 
 .dark{
@@ -16,4 +16,12 @@
 
 .light{
   background: whitesmoke;
+}
+
+.clockDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 5rem;
 }

@@ -177,28 +177,28 @@
     }
 
     .clock .hour, .hr{
-        width: 80px;
-        height: 80px;
+        width: 110px;
+        height: 110px;
     }
     
     .clock .min, .mn{
-        width: 100px;
-        height: 100px;
+        width: 130px;
+        height: 130px;
     }
     
     .clock .sec, .sc{
-        width: 160px;
-        height: 160px;
+        width: 150px;
+        height: 150px;
     }
 
     .hr::before{
-        height: 40px;
-        width: 7px;
+        height: 55px;
+        width: 6px;
     }
     
     .mn::before{
-        height: 50px;
-        width: 6px;
+        height: 65px;
+        width: 5px;
     }
 
     .sc::before{
